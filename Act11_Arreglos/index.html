@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section id="tabla1">
+        <h2>Captura la temperatura promedio de 7 días</h2>
+    <button onclick="procesarTemperaturas()">Capturar Temperaturas</button>
+
+    <section id="resultado-temperaturas"></section>
+    </section>
+
+    <section id="tabla2">
+        <section class="container">
+        <h2>Calculadora y Registro de Sueldos</h2>
+        
+        <section class="form-group">
+            <label>Puesto:</label>
+            <select id="puesto">
+                <option value="0">Diseñador</option>
+                <option value="1">Programador</option>
+                <option value="2">Líder</option>
+            </select>
+        </section>
+
+        <section class="form-group">
+            <label>Nivel:</label>
+            <select id="nivel">
+                <option value="0">Newbe</option>
+                <option value="1">Jr</option>
+                <option value="2">Sr</option>
+            </select>
+        </section>
+
+        <section class="form-group">
+            <label>Hrs Trabajadas:</label>
+            <input type="number" id="horas" value="40" style="width: 150px;">
+        </section>
+
+        <button onclick="generarTablaSueldo()">Generar Tabla de Resultado</button>
+
+        
+        <section id="resultado-tabla"></section>
+        </section>
+    </section>
+
+    <section id="tabla3">
+        <h2>Números (0 al 9) </h2>
+    
+    <section class="controls">
+        <label for="numeroInput">Ingresa un número (0-9):</label>
+        <input type="number" id="numeroInput" min="0" max="9" value="8" style="width: 50px;">
+        <button onclick="dibujarNumero()">Mostrar en Pantalla</button>
+    </section>
+
+    
+    <section id="pantalla-display"></section>
+
+    </section>
+
+
+
+    <script src="/java/arreglos.js" defer></script>
+</body>
+</html>
